@@ -1,0 +1,39 @@
+body {
+  font-family: 'Segoe UI';
+}
+
+.wrapper-main {
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  grid-template-rows: 18% 1fr 18%;
+  gap: 5px;
+  height: 90vh;
+}
+
+.header,
+.footer {
+  background-color: rgb(221, 220, 127);
+  grid-column: 1 / 4;
+}
+
+.article {
+  background-color: lightcoral;
+}
+
+.left,
+.right {
+  background-color: lightgreen;
+}
+
+img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.div-data {
+  font-size: 14px;
+}
+
+.titles {
+  font-weight: bold;
+}
